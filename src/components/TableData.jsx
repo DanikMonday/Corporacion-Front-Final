@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { IoLogOut} from "react-icons/io5";
 
 
-let url = "https://vercel.com/danikmonday/corporacionbackend";
+let url = "https://corporacionbackend.vercel.app/";
 let token = sessionStorage.getItem('token');
 
 function TableData() {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, Navigate } from "react-router-dom";
-let url = "https://vercel.com/danikmonday/corporacionbackend";
+let url = "https://corporacionbackend.vercel.app/";
 
 export const Session = () => {
 
