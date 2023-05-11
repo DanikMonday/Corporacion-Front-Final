@@ -152,7 +152,7 @@ export const Form = () => {
                         <p>¡Pronto estaremos en contacto contigo!</p>
                     </div>
 
-                    <a href="http://localhost:3000/"><button>Cerrar</button></a>
+                    <a href="https://corporacion-front-final.vercel.app/"><button>Cerrar</button></a>
                 </div>
             </div>
         </div>
