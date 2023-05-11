@@ -49,7 +49,7 @@ function TableData() {
 
   const deleteForm = async (id) => {
     try {
-      const res = await axios.delete(url + `/forms/delete/${id}`);
+      const res = await axios.delete(url + `/forms/delete/${id}`, { headers: { 'Authorization': token } });
       const newListForms = listForms.filter(form => form._id !== id);
       setListForms(newListForms);
       console.log('form eliminado')
@@ -82,7 +82,7 @@ function TableData() {
           <option>Rechazado</option>
         </select>
         
-        <button>Editar</button>
+        <button>Aceptar</button>
       </form>
     </div>
   );
