@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, Navigate } from "react-router-dom";
-let url = "http://localhost:3030";
+let url = "https://vercel.com/danikmonday/corporacionbackend";
 
 export const Session = () => {
 
@@ -28,7 +28,7 @@ export const Session = () => {
 
             if (res.data.message == "Bienvenido") {
                 alert(res.data.message);
-                setTimeout(function () { window.location.href = "http://localhost:3000/TableData" }, 2000);
+                setTimeout(function () { window.location.href = "https://corporacion-front-final.vercel.app/TableData" }, 2000);
             } else {
                 alert(res.data.message)
             }
